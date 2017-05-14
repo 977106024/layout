@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>图片列表</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .layout{
+            margin:0 auto;
+            margin-top:30px;
+        }
+        #wrap{
+            width:800px;
+            /*background:rgb(201,202,187);*/
+            padding:10px 0;
+            /*border:1px solid rgb(201,202,187);*/
+        }
+        #wrap h1{
+            color: #666;
+            text-align: center;
+            border-bottom:1px solid #ccc;
+            padding-bottom:20px;
+        }
+        #wrap:after{
+            content:'';
+            display:block;
+            clear:both;
+        }
+        .square .card{
+            list-style:none;
+            width:253.3px;
+            height:180px;
+            background:#004210;
+            float:left;
+            margin-left:20px;
+            margin-top:30px;
+            box-shadow:4px 4px 4px #ccc;
+        }
+        .square{
+            margin-left:-20px;
+        }
+        .card img{
+            height:100%;
+            width:100%;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap" class="layout">
+    <h1>图片列表</h1>
+    <ul class="square">
+        <li class="card">
+            <img src="../img/1.jpg" alt="人物特写" title="仲夏夜">
+        </li>
+        <li class="card">
+            <img src="../img/2.jpg">
+        </li>
+        <li class="card">
+            <img src="../img/3.jpg">
+        </li>
+        <li class="card">
+            <img src="../img/4.jpg">
+        </li>
+        <li class="card">
+            <img src="../img/5.jpg">
+        </li>
+        <li class="card">
+            <img src="../img/6.jpg">
+        </li>
+    </ul>
+</div>
+</body>
+</html>
